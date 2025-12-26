@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Custom Library")(type "KiCad")(uri "C:/Users/jakub/Desktop/Radioodbiornik TDA7088T/Custom Library.kicad_sym")(options "")(descr ""))
+  (lib (name "BB113")(type "KiCad")(uri "C:/Users/jakub/Desktop/Radioodbiornik TDA7088T/LIB_BB135115/BB135115/KiCad/BB135_115.kicad_sym")(options "")(descr ""))
+)

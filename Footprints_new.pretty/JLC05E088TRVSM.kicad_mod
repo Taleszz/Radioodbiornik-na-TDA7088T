@@ -1,0 +1,131 @@
+(footprint "JLC05E088TRVSM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ConnectorMicromatch-2")
+	(property "Reference" "REF**"
+		(at 0 -5.75 0)
+		(layer "F.SilkS")
+		(uuid "80d80684-1472-43bc-a263-277c2afbdd12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JLC05E088TRVSM"
+		(at 0 5.75 0)
+		(layer "F.Fab")
+		(uuid "5df9c048-86b7-41cf-9b22-799ce0779e1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b12ce5ea-9d01-4f2d-a2f0-6789bcedfd40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cbb9450-c9b5-46b9-bf7c-dd4a83274fab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.71 -4.75)
+		(end 4.71 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffca237b-af3f-492a-b504-38c3b7d8b5d3")
+	)
+	(fp_line
+		(start -4.71 4.75)
+		(end -4.71 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0dbc36df-345b-4ac7-9ef3-3d7dcd066f90")
+	)
+	(fp_line
+		(start 4.71 -4.75)
+		(end 4.71 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "254852df-8694-4946-97c3-f1c659a00cff")
+	)
+	(fp_line
+		(start 4.71 4.75)
+		(end -4.71 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e950bfa-222b-44ec-a483-9923c4a507d0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ba98f7b0-8035-43a9-9bb9-db5d54f26180")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -3.5)
+		(size 7 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "686969ba-3de2-4680-b931-3242e354e640")
+	)
+	(pad "2" smd rect
+		(at 0 3.5)
+		(size 7 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "891fb97a-6728-434d-83b5-8fc64bd65e2f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/jakub/Desktop/Radioodbiornik TDA7088T/JLC03E048TRSM/3D/JLC03E048TRSM.stp"
+		(offset
+			(xyz 0 0 4.55)
+		)
+		(scale
+			(xyz 1.2 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
